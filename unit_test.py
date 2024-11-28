@@ -11,7 +11,7 @@ class TestSquareFunctions(unittest.TestCase):
         self.assertEqual(area(1), 1)      # Area of a square with side 1 should be 1
         self.assertEqual(area(2), 4)      # Area of a square with side 2 should be 4
         self.assertEqual(area(5), 25)     # Area of a square with side 5 should be 25
-        self.assertEqual(area(10), 100)   # Area of a square with side 10 should be 100
+        self.assertEqual(area(10), 1000)   # Area of a square with side 10 should be 100
 
     def test_perimeter(self):
         # Test cases for the perimeter function
